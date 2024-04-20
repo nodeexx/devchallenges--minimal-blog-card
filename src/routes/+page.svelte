@@ -7,6 +7,7 @@ import { Button } from '$lib/browser/shadcn-svelte/components/ui/button';
   Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 <Button>Click me</Button>
+<img src="/images/cactus_img.jpg" alt="Cactus" />
 
 <style lang="postcss">
 h1 {
