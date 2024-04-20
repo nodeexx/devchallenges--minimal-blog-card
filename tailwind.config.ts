@@ -18,6 +18,15 @@ const config: Config = {
     },
     extend: {
       colors: {
+        challenge: {
+          purple: '#883AE1',
+          pink: '#E6D6FC',
+          white: '#FFFFFF',
+          'pastel-white': '#FAFAF9',
+          'light-gray': '#E5EAF0',
+          'dark-gray': '#6C727F',
+          black: '#20293A',
+        },
         border: 'hsl(var(--border) / <alpha-value>)',
         input: 'hsl(var(--input) / <alpha-value>)',
         ring: 'hsl(var(--ring) / <alpha-value>)',
