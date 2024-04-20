@@ -1,20 +1,13 @@
-<script>
-import { Button } from '$lib/browser/shadcn-svelte/components/ui/button';
+<script lang="ts">
+import * as Card from '$lib/browser/shadcn-svelte/components/ui/card';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p class="text-challenge-purple">
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
-<Button>Click me</Button>
-<img src="/images/cactus_img.jpg" alt="Cactus" />
-
-<style lang="postcss">
-h1 {
-  color: blue;
-
-  &:hover {
-    color: red;
-  }
-}
-</style>
+<Card.Root>
+  <Card.Header>
+    <Card.Title>Page</Card.Title>
+  </Card.Header>
+  <Card.Content>
+    <p>Page content</p>
+  </Card.Content>
+  <Card.Footer>Footer</Card.Footer>
+</Card.Root>
