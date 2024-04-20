@@ -26,6 +26,7 @@ const config: Config = {
           'light-gray': '#E5EAF0',
           'dark-gray': '#6C727F',
           black: '#20293A',
+          background: '#FAFAF9',
         },
         border: 'hsl(var(--border) / <alpha-value>)',
         input: 'hsl(var(--input) / <alpha-value>)',

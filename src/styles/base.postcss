@@ -1,11 +1,20 @@
 @layer base {
   html,
   body {
+    /* General */
     @apply m-0
     block
     h-full
     w-full
     overflow-hidden
     p-0;
+    /* For the current solution */
+    @apply bg-challenge-background flex items-start justify-center;
+    /* Uncomment for development purposes */
+    /* @apply bg-challenge-pink; */
+  }
+
+  body {
+    @apply pt-[164px];
   }
 }
