@@ -406,3 +406,6 @@ target
 !.vscode/launch.template.json
 !.vscode/extensions.template.json
 !.vscode/css-custom-data-tailwind.json
+
+# Vercel
+.vercel
