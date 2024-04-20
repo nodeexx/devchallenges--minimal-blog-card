@@ -4,7 +4,7 @@ import { fontFamily } from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  darkMode: ['class'],
+  darkMode: ['selector'],
   content: ['./src/**/*.{html,js,svelte,ts}'],
   safelist: ['dark'],
   plugins: [forms, typography],
